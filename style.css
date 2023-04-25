@@ -1,0 +1,76 @@
+body {
+	background-color: lightgray;
+}
+
+#myTable{
+	position: absolute;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-style: hidden;
+	height: 500px;
+	width: 500px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 10%;
+	font-family: "Lucida Console", Courier, monospace;
+	text-align: center;
+}
+
+tr, td {
+	/* max-width: 200px;
+	max-height: 200px; */
+  	border:8px solid black;
+	font-size: 100px;
+}
+
+td {
+	padding: none;
+	overflow:hidden;
+}
+
+td:after {
+	vertical-align: middle;
+	content: "\00A0";
+}
+
+td:hover {
+	background-color: grey;
+}
+
+h1 {
+	text-align: center;
+}
+
+#Result {
+	position: absolute;
+	text-align: center;
+	width: auto;
+	height: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: xx-large;
+	color: red;
+	
+}
+
+#PlayAgn {
+	position: absolute;
+	text-align: center;
+	width: 260px;
+	height: 45px;
+	margin-top: 700px;
+	margin-bottom: 30px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: xx-large;
+	background-color: limegreen;
+	border: 1px solid black;
+	border-radius: 15px;
+	color: white;
+	cursor: pointer;
+}
